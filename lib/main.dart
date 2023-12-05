@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jvgbank/pages/home.dart';
+import 'package:jvgbank/themes/my.theme.dart';
 
 void main() {
   runApp(const Jvgbank());
@@ -10,9 +11,10 @@ class Jvgbank extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "Jvgbank",
-      home: HomePage(),
+      home: const HomePage(),
+      theme: myTheme,
     );
   }
 }
