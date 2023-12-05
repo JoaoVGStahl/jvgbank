@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:jvgbank/widgets/box.card.dart';
 import 'package:jvgbank/widgets/sections/header.dart';
 
 class HomePage extends StatelessWidget {
@@ -10,6 +11,9 @@ class HomePage extends StatelessWidget {
       body: Column(
         children: [
           Header(),
+          BoxCard(
+            boxContent: Text("Olá mundo!"),
+          ),
         ],
       ),
     );
