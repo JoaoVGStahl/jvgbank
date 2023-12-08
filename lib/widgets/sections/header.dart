@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jvgbank/themes/them.colors.dart';
+import 'package:jvgbank/themes/theme.colors.dart';
 
 class Header extends StatelessWidget {
   const Header({super.key});
